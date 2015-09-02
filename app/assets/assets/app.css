@@ -1,0 +1,72 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Toolbar area */
+
+.menu {
+  background-color: transparent;
+  border: none;
+  height: 38px;
+  margin: 16px;
+  width: 36px;
+}
+
+md-toolbar h1 {
+  margin: auto;
+}
+
+md-grid-tile-footer.ng-scope {
+
+}
+/* Primary content area */
+
+#content  {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+md-grid-tile {
+  transition: all 300ms ease-out 50ms;
+}
+
+md-grid-tile-footer.ng-scope{
+  background: rgba(242,156,148,0.3);
+  color: #F2F2E9;
+}
+
+md-icon.ng-scope.ng-isolate-scope.md-default-theme {
+  height: 60px;
+  width: 60px;
+}
+
+md-icon.logo.ng-isolate-scope.md-default-theme {
+  margin: 20px 15px 0 50px;
+}
+
+md-icon.title.ng-isolate-scope.md-default-theme {
+  width:200px;
+  margin: 20px 0;
+}
+/* Utils */
+
+.content-wrapper {
+  position: relative;
+}
+
+md-grid-tile.ng-scope.ng-isolate-scope.darkBrown {
+  background: #222604;
+}
+
+md-grid-tile.ng-scope.ng-isolate-scope.green {
+  background: #59551E;
+}
+
+md-grid-tile.ng-scope.ng-isolate-scope.lightBrown {
+  background: #A68D77;
+}
